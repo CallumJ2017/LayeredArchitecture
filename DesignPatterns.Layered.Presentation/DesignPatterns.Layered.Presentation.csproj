@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DesignPatterns.Layered.Model\DesignPatterns.Layered.Model.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Layered.Service\DesignPatterns.Layered.Service.csproj" />
+  </ItemGroup>
+
+</Project>
